@@ -52,15 +52,7 @@ def track(img):
         cv2.circle(img,(cx,cy),5,(0,0,255),-1)
 
         print(cx)
-        if 92< cx < 305:
-#            print("ok")
-            back()
-        else:
-            forward()
-        if 470< cx <541:
-#            print("go")
-            forward()
-        
+
        
 
     
