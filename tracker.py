@@ -64,8 +64,8 @@ while True:
     if count % 10 != 0:
         continue
     frame=cv2.resize(frame,(640,480))
-    cv2.line(frame, start_point, end_point, color, thickness)
-    cv2.line(frame, start_point1, end_point1, color, thickness)
+ #   cv2.line(frame, start_point, end_point, color, thickness)
+ #   cv2.line(frame, start_point1, end_point1, color, thickness)
     track(frame)
 
            
